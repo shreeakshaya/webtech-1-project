@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+body
+{
+background-image:url(back.jpg);
+background-repeat:no-repeat;
+background-size: cover;
+}
+
+
+.header 
+{
+  opacity:0.7;
+  padding: 10px 16px;
+  background: rgb(32, 32, 32);
+  color: #f1f1f1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+
+
+.sidenav 
+{
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(10, 8, 8,0.5);
+  overflow-x: hidden;
+  padding-top: 20px;
+ 
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  margin-left: 36px;
+
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: black;
+  color: #3BB9FF;
+  font-size: 20px;
+  padding: 5px 5px;
+  opacity:0.7;
+  width:150px;
+  height:70px;
+  padding-top:50px;
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+
+
+
+        <div class="sidenav">
+
+                <div class="container">
+                    <img src="login.jpg"  class="image" style="margin-left: 30px;"width="70px" height="70px">
+                    <div class="middle">
+                      <div class="text">LOGIN/SIGN UP</div>
+                    </div>
+                </div><br><br><br>
+            
+                <div class="container">
+                    <img src="home.jpg"  class="image" style="margin-left: 30px;"width="70px" height="70px">
+                    <div class="middle">
+                      <div class="text">HOME</div>
+                    </div>
+                </div><br><br><br>
+
+                <div class="container">
+                    <img src="resale.jpg"  class="image" style="margin-left: 30px;"width="70px" height="70px">
+                    <div class="middle">
+                      <div class="text">RESALE</div>
+                    </div>
+                </div><br><br><br>
+            
+                <div class="container">
+                    <img src="men.jpg"  class="image" style="margin-left: 30px;"width="70px" height="70px">
+                    <div class="middle">
+                      <div class="text">MEN</div>
+                    </div>
+                </div><br><br><br>
+            
+                <div class="container">
+                    <img src="women.jpg"  class="image" style="margin-left: 30px;"width="70px" height="70px">
+                    <div class="middle">
+                      <div class="text">WOMEN</div>
+                    </div>
+                </div><br><br><br>
+            
+                <div class="container">
+                    <img src="ec.jpg"  class="image" style="margin-left: 30px;"width="70px" height="70px">
+                    <div class="middle">
+                      <div class="text">ELECTRONICS</div>
+                    </div>
+                </div><br><br><br>
+            
+                <div class="container">
+                    <img src="daily.jpg"  class="image" style="margin-left: 30px;"width="70px" height="70px">
+                    <div class="middle">
+                      <div class="text">DAILY NEEDS</div>
+                    </div>
+                </div><br><br><br>
+            
+                <div class="container">
+                    <img src="contact.jpg"  class="image" style="margin-left: 30px;"width="70px" height="70px">
+                    <div class="middle">
+                      <div class="text">CONTACT US</div>
+                    </div>
+                </div><br><br><br>
+                
+            </div>
+
+  
+  <div style="margin-right:270px;margin-left:270px;background-color:rgba(32, 32, 32);opacity:0.8;padding-top: 20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);background-image: 7.jpg;"height="100%" width:="1000px" >
+
+
+        <div >
+
+                <img style="opacity:0.7;padding: 10px 16px;margin-left:200px;margin-top:20px;"src="log.png" width="535px" height="70">
+                <br>
+                <input style="opacity:0.7;padding: 10px 16px;padding-top:7px;padding-bottom:7px;margin-left:120px;width: 400px;" type="text" placeholder="Find it. Like it. Buy it." name="search" size="90" ><button   style="padding-top:7px;padding-bottom:7px;background-color:black;color:#3BB9FF;" type="submit">Search</button></td>
+                <br><br><br><br><br>
+
+
+                <h2 style="color:#306EFF;font-family:Microsoft JhengHei Light;" align="center">FILL IN THE REQUIRED DETAILS OF THE PRODUCT YOU ARE SELLING</h2>
+
+                <br>
+                <label for="title" style="color:white;opacity:0.7;font-size: 30px;margin-left: 100px;font-family:Microsoft JhengHei Light"><b>Title</b></label><br>
+                <input type="text" class="form-control" id="title" placeholder="Add a title" name="title"style="margin-left: 100px;background-color: white;opacity:0.7;border-style: solid;border-color:#306EFF;width:500px;height:30px;">
+                
+                <br><br><br>
+                <label for="title" style="color:white;opacity:0.7;font-size: 30px;margin-left: 100px;font-family:Microsoft JhengHei Light"><b>Price</b></label><br>
+                <input type="text" class="form-control" id="title" placeholder="Specify the price" name="title"style="margin-left: 100px;background-color: white;opacity:0.7;border-style: solid;border-color:#306EFF;width:500px;height:30px;">
+                
+               
+                <p><b style="font-size:30px;color:white;margin-left: 100px;opacity:0.7;font-family:Microsoft JhengHei Light;">Description<br/></b></p>
+                <textarea rows="10" cols="50" align="left"name="description" style="color: rgba(128, 128, 128, 0.822);border-style: solid;margin-left: 100px;border-color:#306EFF;background-color: white;opacity:0.7;border-style: solid;border-width: medium;">
+                Details here....
+                </textarea>
+                         
+
+                <br><br><br>
+                <label for="title" style="color:white;opacity:0.7;font-size: 30px;margin-left: 100px;font-family:Microsoft JhengHei Light"><b>Location</b></label><br>
+                <input type="text" class="form-control" id="title" placeholder="Add Location" name="title"style="margin-left: 100px;background-color: white;opacity:0.7;border-style: solid;border-color:#306EFF;width:500px;height:30px;">
+                
+                
+                <br><br><br>
+                
+                        
+                          <div class="form-group">
+                                <p><b style="color:white;opacity:0.7;font-size: 30px;margin-left: 100px;font-family:Microsoft JhengHei Light">Add atleast 4 pictures</b></p>
+                                <input type="button" value="1" style="margin-left: 100px;width:80px;height:80px;color:white;background-color:#306EFF;opacity:0.7;font-size:30px;">
+                                <input type="button" value="2" style="width:80px;height:80px;color:white;background-color:#306EFF;opacity:0.7;font-size:30px;">
+                                <input type="button" value="3" style="width:80px;height:80px;color:white;background-color:#306EFF;opacity:0.7;font-size:30px;">
+                                <input type="button" value="4" style="width:80px;height:80px;color:white;background-color:#306EFF;opacity:0.7;font-size:30px;">
+                                <input type="button" value="5" style="width:80px;height:80px;color:white;background-color:#306EFF;opacity:0.7;font-size:30px;">
+                                <input type="button" value="6" style="width:80px;height:80px;color:white;background-color:#306EFF;opacity:0.7;font-size:30px;">
+                          </div>
+                      
+               
+                <br><br><br><br><br>
+
+                <div class="form-group">
+                        <input type="button" value="POST" style="width:150px;height:60px;margin-left: 100px;color:white;opacity:0.7;background-color:#306EFF;font-size:30px;">
+                </div>
+                
+                <br><br><br>
+        </div>
+
+
+                 
+  </div>
+
+  
+
+
+</body>
+</html>

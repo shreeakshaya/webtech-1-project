@@ -1,0 +1,71 @@
+body{
+
+background-image:url(bg9.jpg);
+background-repeat:no-repeat;
+background-position:70%;
+
+height: 100%;
+
+}
+
+
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 9px 8px;
+  margin: 10px 0px;
+  display: inline-block;
+	border: 1px solid black;
+  box-sizing: border-box;
+}
+
+#login_btn {
+  background-color: #0066ff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+a{
+  color: white;
+}
+
+
+.s {
+  margin: 30px;
+}
+
+span.pw {
+  
+  padding-top: 16px;
+  padding-left:200px
+  
+}
+
+.back
+{
+  max-width: 500px;
+  margin:auto;
+  border-radius: 25px;
+  background-color:black;
+  border: 1px solid black;
+  opacity: 0.8;
+  color:white;
+  
+  box-sizing:border-box;
+
+ }
+#login_btn:hover {
+  opacity: 0.8;
+}
+@media screen and (max-width: 300px)
+ {
+  span.psw {
+     display: block;
+     float: none;
+  }
+}

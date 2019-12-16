@@ -1,0 +1,252 @@
+<html>
+        <head>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <!-- Font Awesome Icon Library -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <style>
+/*code for main */
+body
+{
+background-image:url(back.jpg);
+height:250px;
+background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.sidenav 
+{
+  position: absolute;
+  right: 0;
+  top:0;
+  width:140px ;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: rgb(10, 8, 8,0.5);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.header 
+{
+  opacity:0.8;
+  padding: 10px 16px;
+  background: rgba(32, 32, 32);
+  color: #f1f1f1;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  margin-left:30px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  margin-left: 36px;
+
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: black;
+  color: #3BB9FF;
+  font-size: 20px;
+  padding: 5px 5px;
+  opacity:0.7;
+  width:150px;
+  height:80px;
+  padding-top:20px;
+}
+
+/*end of code for main */
+* {box-sizing: border-box;}
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 80px;
+  height: 80px;
+}
+
+</style>
+</head>
+    <body>
+        <div class="header">
+            <img style="margin-left:500px;margin-top:20px;"src="log.png" width="535px" height="70">
+            <br><br>
+            <input style="padding-top:7px;padding-bottom:7px;margin-left:430px;" type="text" value="Find it. Like it. Buy it." name="search" size="90" ><button   style="padding-top:7px;padding-bottom:7px;background-color:black;color:#3BB9FF;" type="submit">Search</button></td>
+            <br>
+          </div>
+      
+          <div class="sidenav">
+
+            <br><br>
+            <div class="container">
+                <img src="sell3.jpg"  class="image" style="margin-right: 70px;"width="70px" height="70px">
+                <div class="middle">
+                  <div class="text" ><a href="sell_new.html">TO SELL</a></div>
+                </div>
+            </div><br><br><br><br><br><br><br>
+        
+            <div class="container">
+                <img src="mobiles.jpg"  class="image" style="margin-right: 70px;"width="70px" height="70px">
+                <div class="middle">
+                  <div class="text"><a href="mobiles_new.html">MOBILES</a></div>
+                </div>
+            </div><br><br><br>
+        
+            <div class="container">
+                <img src="furniture.jpg"  class="image" style="margin-right: 70px;"width="70px" height="70px">
+                <div class="middle">
+                  <div class="text"><a href="furnitures_new.html">FURNITURE</a></div>
+                </div>
+            </div><br><br><br>
+        
+            <div class="container">
+                <img src="homeapp.jpg"  class="image" style="margin-right: 70px;"width="70px" height="70px">
+                <div class="middle">
+                  <div class="text"><a href="homeappliances_new.html">HOME APPLIANCES</a></div>
+                </div>
+            </div><br><br><br>
+        
+            <div class="container">
+                <img src="watch.jpg"  class="image" style="margin-right: 70px;"width="70px" height="70px">
+                <div class="middle">
+                  <div class="text"><a href="others_new.html">OTHERS</a></div>
+                </div>
+            </div><br><br><br>
+          
+        </div>
+        <br><br><br>
+            <br><br><br>
+            <table border="0" width="80%"  background-color="black" style="margin-left: 100px;background-color: rgb(7, 6, 6,0.50);box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.2), 0 30px 50px 0 rgba(0, 0, 0, 0.19);border-radius:10px">
+                <tr>
+                    <td width="30%" class="img-zoom-container"> <img  id="myimage" src="sofaresale.jpg" style="width:380px;height:300px;border-radius:10px;"> </td>
+                    <td width="40%" style="padding-left:50px;color: #306EFF ; font-family:Microsoft JhengHei Light ;"><b><font size="5"><b>Couch -5 seater</b></font>
+                    <br><br>
+                    <font color="#306EFF">Special price</font>
+                    <br>
+                    <font size="5%"><b>Rs:30,000</b></font>
+                    <br>
+                    
+                    <ul>
+                        <li style="color: #3BB9FF ; font-family:Microsoft JhengHei Light ;">Color: Brown</li>
+                        <li style="color: #3BB9FF ; font-family:Microsoft JhengHei Light ;">Material: Linen</li>
+                        <li style="color: #3BB9FF ; font-family:Microsoft JhengHei Light ;">Price mentioned includes the table</li>
+                        <li style="color: #3BB9FF ; font-family:Microsoft JhengHei Light ;">Bought 4 years ago and is in good conditon</li>
+                        <li style="color: #3BB9FF ; font-family:Microsoft JhengHei Light ;">If interested contact the owner at 8094683860</li>
+                    </ul>
+                    <input type="button" value="Add To Cart" style="background-color: rgb(48, 110, 255,0.5);color: white;width: 105px;height: 40px;font-size: 17px;padding-right: 7%;">
+                    <input type="button" value="Buy Now" style="background-color:rgb(145, 144, 144,0.5);color: white;width: 100px;height: 40px;font-size: 17px;">
+                  </td >
+                    <td id="myresult" class="img-zoom-result" style="border-radius:10px;"></td> 
+                
+                </tr>
+                </table><br><br>
+                <br>
+                 
+              
+                <script>
+                function imageZoom(imgID, resultID) {
+                  var img, lens, result, cx, cy;
+                  img = document.getElementById(imgID);
+                  result = document.getElementById(resultID);
+                  /*create lens:*/
+                  lens = document.createElement("DIV");
+                  lens.setAttribute("class", "img-zoom-lens");
+                  /*insert lens:*/
+                  img.parentElement.insertBefore(lens, img);
+                  /*calculate the ratio between result DIV and lens:*/
+                  cx = result.offsetWidth / lens.offsetWidth;
+                  cy = result.offsetHeight / lens.offsetHeight;
+                  /*set background properties for the result DIV:*/
+                  result.style.backgroundImage = "url('" + img.src + "')";
+                  result.style.backgroundSize = (img.width * cx) + "px " + (img.height * cy) + "px";
+                  /*execute a function when someone moves the cursor over the image, or the lens:*/
+                  lens.addEventListener("mousemove", moveLens);
+                  img.addEventListener("mousemove", moveLens);
+                  /*and also for touch screens:*/
+                  lens.addEventListener("touchmove", moveLens);
+                  img.addEventListener("touchmove", moveLens);
+                  function moveLens(e) {
+                    var pos, x, y;
+                    /*prevent any other actions that may occur when moving over the image:*/
+                    e.preventDefault();
+                    /*get the cursor's x and y positions:*/
+                    pos = getCursorPos(e);
+                    /*calculate the position of the lens:*/
+                    x = pos.x - (lens.offsetWidth / 2);
+                    y = pos.y - (lens.offsetHeight / 2);
+                    /*prevent the lens from being positioned outside the image:*/
+                    if (x > img.width - lens.offsetWidth) {x = img.width - lens.offsetWidth;}
+                    if (x < 0) {x = 0;}
+                    if (y > img.height - lens.offsetHeight) {y = img.height - lens.offsetHeight;}
+                    if (y < 0) {y = 0;}
+                    /*set the position of the lens:*/
+                    lens.style.left = x + "px";
+                    lens.style.top = y + "px";
+                    /*display what the lens "sees":*/
+                    result.style.backgroundPosition = "-" + (x * cx) + "px -" + (y * cy) + "px";
+                  }
+                  function getCursorPos(e) {
+                    var a, x = 0, y = 0;
+                    e = e || window.event;
+                    /*get the x and y positions of the image:*/
+                    a = img.getBoundingClientRect();
+                    /*calculate the cursor's x and y coordinates, relative to the image:*/
+                    x = e.pageX - a.left;
+                    y = e.pageY - a.top;
+                    /*consider any page scrolling:*/
+                    x = x - window.pageXOffset;
+                    y = y - window.pageYOffset;
+                    return {x : x, y : y};
+                  }
+                }
+                </script>
+                    <script>
+                    // Initiate zoom effect:
+                      imageZoom("myimage", "myresult");
+                    </script>
+    </body>
+</html>
+

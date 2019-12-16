@@ -1,0 +1,291 @@
+<html>
+        <head>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <!-- Font Awesome Icon Library -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <style>
+/*code for main */
+body
+{
+background-image:url(back.jpg);
+height:250px;
+background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.sidenav 
+{
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(10, 8, 8,0.5);
+  overflow-x: hidden;
+  padding-top: 20px;
+ 
+}
+
+.header 
+{
+  opacity:0.8
+  ;
+  padding: 10px 16px;
+  background: rgba(32, 32, 32 );
+  color: #f1f1f1;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  margin-left: 36px;
+
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: black;
+  color: #3BB9FF;
+  font-size: 20px;
+  padding: 5px 5px;
+  opacity:0.7;
+  width:150px;
+  height:80px;
+  padding-top:20px;
+}
+
+/*end of code for main */
+* {box-sizing: border-box;}
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 80px;
+  height: 80px;
+}
+.checked {
+        color: orange;
+}
+</style>
+</head>
+    <body>
+      <div class="header" style="margin-left: 150px;">
+		
+        <img style="margin-left:300px;margin-top:50px;"src="log.png" width="535px" height="70">
+        <br><br>
+        <input style="padding-top:7px;padding-bottom:7px;margin-left:150px;" type="text" placeholder="Find it. Like it. Buy it." name="search" size="90" ><button   style="padding-top:7px;padding-bottom:7px;background-color:black;color:#3BB9FF;" type="submit">Search</button></td>
+        <br>
+      
+        </div>
+      
+      <div class="sidenav">
+      
+        <div class="container">
+          <img src="home.jpg"  class="image" style="margin-left: 30px;"width="70px" height="70px">
+          <div class="middle">
+            <div class="text"><a href="homepage1_1.html"  style="color:#3BB9FF">HOME</a></div>
+          </div>
+
+      </div><br><br><br>
+      <div class="container">
+        <img src="cart.png"  class="image" style="margin-left: 30px;"width="70px" height="70px">
+        <div class="middle">
+          <div class="text"><a href="cart.html" style="color:#3BB9FF">CART</a></div>
+        </div>
+    </div><br><br><br>
+    <div class="container">
+        <img src="resale.jpg"  class="image" style="margin-left: 30px;"width="70px" height="70px">
+        <div class="middle">
+          <div class="text"><a href="resale main page new.html" style="color:#3BB9FF">RESALE</a></div>
+        </div>
+    </div><br><br><br>
+  
+      <div class="container">
+          <img src="men.jpg"  class="image" style="margin-left: 30px;"width="70px" height="70px">
+          <div class="middle">
+            <div class="text"><a href="product1.html"  style="color:#3BB9FF">MEN</a></div>
+          </div>
+      </div><br><br><br>
+  
+      <div class="container">
+          <img src="women.jpg"  class="image" style="margin-left: 30px;"width="70px" height="70px">
+          <div class="middle">
+            <div class="text"><a href="product2.html"  style="color:#3BB9FF">WOMEN</a></div>
+          </div>
+      </div><br><br><br>
+  
+      <div class="container">
+          <img src="ec.jpg"  class="image" style="margin-left: 30px;"width="70px" height="70px">
+          <div class="middle">
+            <div class="text"><a href="product4.html"  style="color:#3BB9FF">ELECTRONICS</a></div>
+          </div>
+      </div><br><br><br>
+  
+      <div class="container">
+          <img src="daily.jpg"  class="image" style="margin-left: 30px;"width="70px" height="70px">
+          <div class="middle">
+            <div class="text"><a href="product5.html"  style="color:#3BB9FF">DAILY NEEDS</a></div>
+          </div>
+      </div><br><br><br>
+  
+      <div class="container">
+          <img src="contact.jpg"  class="image" style="margin-left: 30px;"width="70px" height="70px">
+          <div class="middle">
+            <div class="text"><a href="contact.html"  style="color:#3BB9FF">CONTACT US</a></div>
+          </div>
+          </div><br><br><br>
+        
+      </div><br><br>
+            <br><br><br>
+            <table border="0" width="80%"  background-color="black" style="margin-left: 190px;background-color: rgb(7, 6, 6,0.50);box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.2), 0 30px 50px 0 rgba(0, 0, 0, 0.19);border-radius:10px">
+                <tr>
+                    <td width="30%" class="img-zoom-container"> <img  id="myimage" src="Surf Excel Quick Wash Detergent Powder.jpg" width="300px" height="50%"> </td>
+                    <td width="40%" style="color: #306EFF ; font-family:Microsoft JhengHei Light ;"><b><font size="5"><b> Surf Excel Quick Wash Detergent Powder</b></font>
+                    <br><br>
+                    <font color="#306EFF">Special price</font>
+                    <br>
+                    <font size="5%" ><b>Rs:299</b></font><strike> <font color="#3BB9FF">99</font></strike> <font color="#3BB9FF">3% off</font> 
+                    <br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <br>
+                    <ul>
+                        <li style="color: #3BB9FF ; font-family:Microsoft JhengHei Light ;">Tough stain removal in machine with Surf excel matic, Ideal For: Adults</li>
+                        <li style="color: #3BB9FF ; font-family:Microsoft JhengHei Light ;">Surf excel matic top load is designed to work in high water level (40 liters) of top load washing machines</li>
+                        <li style="color: #3BB9FF ; font-family:Microsoft JhengHei Light ;">Surf excel matic top load laundry detergent dissolves completely leaving no residue on your clothes on in the machine</li>
+                        <li style="color: #3BB9FF ; font-family:Microsoft JhengHei Light ;">Surf excel matic top load laundry detergent has an advanced technology that gives you handwash like clean in machines itself</li>
+                        <li style="color: #3BB9FF ; font-family:Microsoft JhengHei Light ;">1 scoop of Surf excel matic = 2 scoops of ordinary handwash detergent</li>
+                        <li style="color: #3BB9FF ; font-family:Microsoft JhengHei Light ;">Surf excel matic top load laundry detergent is the no.1 matic detergent and is recommended by leading washing machine manufacturers</li>
+                        
+                    </ul>
+                    <input type="button" value="Add To Cart" style="background-color: rgb(48, 110, 255,0.5);color: white;width: 105px;height: 40px;font-size: 17px;padding-right: 7%;">
+                    <input type="button" value="Buy Now" style="background-color:rgb(145, 144, 144,0.5);color: white;width: 100px;height: 40px;font-size: 17px;">
+                  </td >
+                    <td id="myresult" class="img-zoom-result" style="border-radius:10px;"></td> 
+                
+                </tr>
+                </table><br><br>
+                <br><center>
+                  <table border="0" width="80%"  background-color="black" style="margin-left: 100px;background-color: rgb(7, 6, 6,0.50);box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.2), 0 30px 50px 0 rgba(0, 0, 0, 0.19);border-radius:40px">
+                    <td colspan="5"><h2 style="color: #306EFF ; font-family:Microsoft JhengHei Light ;padding-left: 20px;"><marquee direction="alternate">Save Extra with 4 offers</marquee></h2><hr></td> 
+                <tr>     
+                  <td><ul>
+                    <li style="color: #3BB9FF ; font-family:Microsoft JhengHei Light ;">Bank Offer (2): Get 10% cashback up to Rs. 500 on a minimum purchase of Rs 2000 with HDFC Bank Debit Cards</li>
+                    <li style="color: #3BB9FF ; font-family:Microsoft JhengHei Light ;">5% Instant discount with HSBC Cashback card</li>
+                    <li style="color: #3BB9FF ; font-family:Microsoft JhengHei Light ;">No Cost EMI: Avail No Cost EMI on select cards for orders above ₹3000 </li>
+                    <li style="color: #3BB9FF ; font-family:Microsoft JhengHei Light ;">Cashback: Flat Rs.50 cashback as Amazon Pay balance on minimum order of Rs.50 using Amazon Pay UPI. For Android App customers only. Valid once during offer period. Cashback within 5 days.</li>
+                    <li style="color: #3BB9FF ; font-family:Microsoft JhengHei Light ;">Partner Offers (1): Get GST invoice and save up to 28% on business purchases.</li>
+                  </ul></td>
+                </tr>   
+                  </table>
+                </center>
+                <script>
+                function imageZoom(imgID, resultID) {
+                  var img, lens, result, cx, cy;
+                  img = document.getElementById(imgID);
+                  result = document.getElementById(resultID);
+                  /*create lens:*/
+                  lens = document.createElement("DIV");
+                  lens.setAttribute("class", "img-zoom-lens");
+                  /*insert lens:*/
+                  img.parentElement.insertBefore(lens, img);
+                  /*calculate the ratio between result DIV and lens:*/
+                  cx = result.offsetWidth / lens.offsetWidth;
+                  cy = result.offsetHeight / lens.offsetHeight;
+                  /*set background properties for the result DIV:*/
+                  result.style.backgroundImage = "url('" + img.src + "')";
+                  result.style.backgroundSize = (img.width * cx) + "px " + (img.height * cy) + "px";
+                  /*execute a function when someone moves the cursor over the image, or the lens:*/
+                  lens.addEventListener("mousemove", moveLens);
+                  img.addEventListener("mousemove", moveLens);
+                  /*and also for touch screens:*/
+                  lens.addEventListener("touchmove", moveLens);
+                  img.addEventListener("touchmove", moveLens);
+                  function moveLens(e) {
+                    var pos, x, y;
+                    /*prevent any other actions that may occur when moving over the image:*/
+                    e.preventDefault();
+                    /*get the cursor's x and y positions:*/
+                    pos = getCursorPos(e);
+                    /*calculate the position of the lens:*/
+                    x = pos.x - (lens.offsetWidth / 2);
+                    y = pos.y - (lens.offsetHeight / 2);
+                    /*prevent the lens from being positioned outside the image:*/
+                    if (x > img.width - lens.offsetWidth) {x = img.width - lens.offsetWidth;}
+                    if (x < 0) {x = 0;}
+                    if (y > img.height - lens.offsetHeight) {y = img.height - lens.offsetHeight;}
+                    if (y < 0) {y = 0;}
+                    /*set the position of the lens:*/
+                    lens.style.left = x + "px";
+                    lens.style.top = y + "px";
+                    /*display what the lens "sees":*/
+                    result.style.backgroundPosition = "-" + (x * cx) + "px -" + (y * cy) + "px";
+                  }
+                  function getCursorPos(e) {
+                    var a, x = 0, y = 0;
+                    e = e || window.event;
+                    /*get the x and y positions of the image:*/
+                    a = img.getBoundingClientRect();
+                    /*calculate the cursor's x and y coordinates, relative to the image:*/
+                    x = e.pageX - a.left;
+                    y = e.pageY - a.top;
+                    /*consider any page scrolling:*/
+                    x = x - window.pageXOffset;
+                    y = y - window.pageYOffset;
+                    return {x : x, y : y};
+                  }
+                }
+                </script>
+                    <script>
+                    // Initiate zoom effect:
+                      imageZoom("myimage", "myresult");
+                    </script>
+    </body>
+</html>
